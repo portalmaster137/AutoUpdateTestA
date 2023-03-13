@@ -7,6 +7,7 @@ if ! type -P cargo &> /dev/null; then
   exit 1
 fi
 
+
 cd /root/AutoUpdateTestA
 
 git fetch origin

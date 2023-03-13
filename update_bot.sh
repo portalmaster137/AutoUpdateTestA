@@ -18,4 +18,6 @@ if [ "$HEADHASH" != "$UPSTREAMHASH" ]; then
         git pull
         "Running"
         cargo run &
+else
+        echo "No Update"
 fi

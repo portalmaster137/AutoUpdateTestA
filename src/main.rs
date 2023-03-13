@@ -10,5 +10,5 @@ async fn main() -> tide::Result<()> {
 }
 
 async fn hello_world(_: Request<()>) -> tide::Result {
-    Ok("Hello, oh aa!".into())
+    Ok("Hello, oh maen!".into())
 }

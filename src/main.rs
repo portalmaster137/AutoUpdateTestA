@@ -4,8 +4,8 @@ use tide::{Request, prelude::*};
 async fn main() -> tide::Result<()> {
     let mut app = tide::new();
     app.at("/").get(hello_world);
-    println!("Listening on 8080");
-    app.listen("127.0.0.1:8080").await?;
+    println!("Listening on 80");
+    app.listen("127.0.0.1:80").await?;
     Ok(())
 }
 
